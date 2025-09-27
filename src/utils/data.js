@@ -1,12 +1,12 @@
 // File: data.js
 
-import WeddingImage from "../assets/products/Wedding.jpg";
-import CeremonyImage from "../assets/products/Ceremony.jpg";
-import GraduationImage from "../assets/products/Graduation.jpg";
-import PhotoshotImage from "../assets/products/Photoshot.jpg";
-import PartyImage from "../assets/products/Party.jpg";
-import EventImage from "../assets/products/Event.jpg";
-import FilmImage from "../assets/products/Film.jpg";
+import WeddingImage from "../assets/products/Wedding.JPG";
+import CeremonyImage from "../assets/products/Ceremony.JPG";
+import GraduationImage from "../assets/products/Graduation.JPG";
+import PhotoshotImage from "../assets/products/Photoshot.JPG";
+import PartyImage from "../assets/products/Party.JPG";
+import EventImage from "../assets/products/Event.JPG";
+import FilmImage from "../assets/products/Film.JPG";
 
 const products = [
   { 
