@@ -1,0 +1,112 @@
+/* File: src/components/ProductCard.css */
+
+.product-card {
+  width: 250px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Memastikan link yang membungkus kartu tidak memiliki gaya default */
+.product-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada Link */
+    color: inherit;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Menambahkan jarak antar elemen */
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* =================================
+   Styling Rating Section
+================================= */
+.card-rating-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0.2rem 0;
+}
+
+.star-display-small {
+  color: gold;
+  font-size: 0.9rem; /* Ukuran bintang agar lebih kecil di kartu */
+}
+
+.rating-count-text {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* =================================
+   Styling Tombol Add to Cart
+================================= */
+.add-to-cart-card-btn {
+  background-color: #28a745; /* Warna hijau untuk Add to Cart */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  width: 100%; /* Membuat tombol selebar kartu */
+  box-sizing: border-box; /* Memastikan padding dan border dihitung dalam lebar */
+}
+
+.add-to-cart-card-btn:hover {
+  background-color: #218838;
+}
+
+/* =================================
+   Styling Tombol/Link "View Product"
+================================= */
+/* Mengubah styling 'View Product' agar menjadi secondary action */
+.view-details-btn {
+  /* Hapus semua styling sebelumnya dan ganti dengan tampilan link yang sederhana */
+  display: block; /* Agar menjadi baris baru */
+  color: #007bff; /* Warna biru sebagai link */
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0; /* Hapus padding yang membuat tombol terlalu besar */
+  background-color: transparent;
+  transition: color 0.2s;
+}
+
+.view-details-btn:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  background-color: transparent;
+}

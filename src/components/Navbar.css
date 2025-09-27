@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Di dalam file header.css */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-map {
+  font-family: 'monospace', Arial, sans-serif; /* Perbaikan: Gunakan koma */
+  font-weight: bold;
+  color: #000000;
+  font-size: 30px;
+}
+
+.logo-studio {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #2f00ff;
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #2f00ff;
+}
+
+.search {
+  width: 250px; 
+}
+
+.search input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+.cart-link {
+  position: relative; /* Ini penting untuk memposisikan badge */
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -15px;
+  background-color: #ff3860; /* Warna merah */
+  color: white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}

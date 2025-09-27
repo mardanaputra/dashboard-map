@@ -1,0 +1,20 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Ini akan menengahkan kontainer utama */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.dashboard-title {
+  text-align: center; /* Ini akan menengahkan judul "Dashboard" */
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center; /* Ini akan menengahkan kartu produk di dalam grid */
+  gap: 30px;
+  flex-wrap: wrap;
+}
