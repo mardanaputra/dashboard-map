@@ -1,7 +1,7 @@
 // File: App.jsx
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import Navbar from "./components/Navbar";
 import DashboardContent from "./components/DashboardContent";
 import Footer from "./components/Footer";
